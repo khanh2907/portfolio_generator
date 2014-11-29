@@ -81,6 +81,7 @@ Projects:
     urls:
       - 'http://www.bccvl.org.au/'
       - 'https://app.bccvl.org.au/'
+    video_embed: '<iframe width="560" height="315" src="//www.youtube.com/embed/ACj6BsLoMXo" frameborder="0" allowfullscreen></iframe>'
 
   Virtual Journey:
     name: Virtual Journey
@@ -137,6 +138,7 @@ Projects:
       - Marvel API
     urls:
       - 'https://github.com/khanh2907/marvel_character_cards'
+      - 'http://khanh.info/marvel_character_cards'
     images:
       - 'images/mcc1.png'
       - 'images/mcc2.png'
@@ -144,12 +146,17 @@ Projects:
   TreasureTrove:
     name: TreasureTrove
     friendly_name: treasure_trove
-    description: "test"
+    description: "TreasureTrove enhances the Trove newspaper article research experience by providing topic identification, named entity recognition, relation extraction, relevant supplementary information, and maps."
     organisation: GovHack
     type: hackathon
     technologies:
       - Ruby on Rails
       - PostgreSQL
       - Trove API
+      - Open Calais
+      - Google Maps
+      - DBpedia
     urls:
       - 'https://github.com/charles-shao/treasure_trove'
+    logo: 'images/tt_logo.png'
+    video_embed: '<iframe width="560" height="315" src="//www.youtube.com/embed/9P27yFgmz2c" frameborder="0" allowfullscreen></iframe>'

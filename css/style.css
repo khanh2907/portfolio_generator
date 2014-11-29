@@ -1,6 +1,7 @@
 .image{
 	margin: 5px;
 	max-height: 400px;
+	max-width: 40%;
 }
 
 h2 i {
@@ -9,4 +10,14 @@ h2 i {
 
 .description {
 	margin-top: 20px;
+}
+
+.centerize {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video_embed {
+	max-width: 40%;
 }
