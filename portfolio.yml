@@ -1,0 +1,105 @@
+Projects:
+  LEASA:
+    name: RICS LEASA
+    company: Intersect Australia
+    Description: "The Leasa App has a number of tools which help office tenants to make decisions about their existing office space and the spaces they may wish to lease."
+    technologies: 
+      - Ruby on Rails
+      - PostgreSQL
+      - iOS
+      - Android
+      - jQuery
+      - Twitter Bootstrap 2
+      - Rspec
+      - Capybara
+      - Cucumber
+      - Selenium
+  
+  HCSVLAB:
+    name: Alveo
+    company: Intersect Australia
+    Description: "Alveo provides on-line infrastructure for accessing human communication data sets (speech, texts, music, video, etc.) and for using specialised tools for searching, analysing and annotating that data."
+    technologies: 
+      - Ruby on Rails
+      - PostgreSQL
+      - ActiveMQ
+      - Solr
+      - Ansible
+      - Rspec
+      - Capybara
+      - Cucumber
+      - Selenium
+  
+  DC21:
+    name: Intersect DIVER
+    company: Intersect Australia
+    Description: "Intersect DIVER (Data Is Vital for Empirical Research ) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect “AAAA” data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - Redis
+      - Resque
+      - Rspec
+      - Capybara
+      - Cucumber
+      - Selenium
+      - Ansible
+
+  BCCVL:
+    name: BCCVL - Biodiversity and Climate Change Virtual Laboratory
+    company: Intersect Australia
+    Description: "The BCCVL is a “one stop modelling shop” that simplifies the process of biodiversity-climate change modelling. Its mission is to connect the research community to Australia’s national computation infrastructure by integrating a suite of tools in a coherent online environment where researchers can access data and perform data analysis and modelling."
+    technologies:
+      - Pyramid (Pylons)
+      - Plone
+      - Python
+      - SQLite
+
+  Virtual Journey:
+    name: Virtual Journey
+    company: University of Sydney
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - PostGIS
+      - Redis
+      - Resque
+      - FFMPEG
+      - Rspec/Capybara
+      - Selenium
+
+  LECREC:
+    name: LECREC
+    company: University of Sydney
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - Redis
+      - Resque
+      - FFMPEG
+      - Rspec/Capybara
+      - Selenium
+
+  TAPAS:
+    name: TAPAS
+    company: Intersect Australia
+    technologies:
+      - Groovy on Grails
+      - PostgreSQL
+      - PostGIS
+      - Selenium
+      - jUnit
+
+  Marvel Character Cards:
+    name: Marvel Character Cards
+    technologies:
+      - jQuery
+      - Marvel API
+
+  TreasureTrove:
+    name: TreasureTrove
+    company: GovHack
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - Trove API
