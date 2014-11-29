@@ -21,3 +21,27 @@ h2 i {
 .video_embed {
 	max-width: 40%;
 }
+
+	body {
+	background: url('/portfolio_generator/images/bg_body.jpg') center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Benton', 'Tahoma', 'Helvetica', 'Arial', sans-serif;
+	color: #1b1b1b;
+}
+
+.outside {
+	color: white;
+}
+
+h1.outside{
+	text-shadow: 4px 4px 2px rgba(1, 0, 0, 1);
+	font-size: 100px;
+}
+
+.project {
+	box-shadow: 0 0 10px #333;
+	border-radius: 0px;
+}
