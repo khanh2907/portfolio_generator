@@ -1,8 +1,12 @@
 import yaml
+from classes.portfolio_page import PortfolioPage
 from classes.project import Project
 
 def main(portfolio_file='portfolio.yml'):
 	projects = load_projects(portfolio_file)
+
+	portfolio = PortfolioPage(projects)
+	print(portfolio.html)
 
 # Loads projects from the YAML file
 def load_projects(file_path):

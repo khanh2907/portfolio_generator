@@ -1,8 +1,10 @@
 Projects:
   LEASA:
     name: RICS LEASA
-    company: Intersect Australia
-    Description: "The Leasa App has a number of tools which help office tenants to make decisions about their existing office space and the spaces they may wish to lease."
+    friendly_name: rics
+    organisation: Intersect Australia
+    type: work
+    description: "The Leasa App has a number of tools which help office tenants to make decisions about their existing office space and the spaces they may wish to lease."
     technologies: 
       - Ruby on Rails
       - PostgreSQL
@@ -14,11 +16,22 @@ Projects:
       - Capybara
       - Cucumber
       - Selenium
-  
+    urls:
+      - 'http://www.rics.org/au/footer/choosing-and-managing-an-energy-efficient-space/'
+      - 'https://itunes.apple.com/au/app/leasa/id647127739?mt=8'
+      - 'https://leasa.rics.org/'
+      - 'https://play.google.com/store/apps/details?id=au.org.rics.leasa.android'
+    images:
+      - 'images/leasa1.png'
+      - 'images/leasa2.png'
+      - 'images/leasa3.png'
+
   HCSVLAB:
     name: Alveo
-    company: Intersect Australia
-    Description: "Alveo provides on-line infrastructure for accessing human communication data sets (speech, texts, music, video, etc.) and for using specialised tools for searching, analysing and annotating that data."
+    friendly_name: hcsvlab
+    organisation: Intersect Australia
+    type: work
+    description: "Alveo provides on-line infrastructure for accessing human communication data sets (speech, texts, music, video, etc.) and for using specialised tools for searching, analysing and annotating that data."
     technologies: 
       - Ruby on Rails
       - PostgreSQL
@@ -29,11 +42,17 @@ Projects:
       - Capybara
       - Cucumber
       - Selenium
+      - Tomcat
+    urls:
+      - 'http://alveo.edu.au/'
+      - 'https://github.com/IntersectAustralia/hcsvlab'
   
   DC21:
     name: Intersect DIVER
-    company: Intersect Australia
-    Description: "Intersect DIVER (Data Is Vital for Empirical Research ) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect “AAAA” data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
+    friendly_name: dc21
+    organisation: Intersect Australia
+    type: work
+    description: "Intersect DIVER (Data Is Vital for Empirical Research ) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect 'AAAA' data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
     technologies:
       - Ruby on Rails
       - PostgreSQL
@@ -44,20 +63,31 @@ Projects:
       - Cucumber
       - Selenium
       - Ansible
+    urls:
+      - 'https://github.com/IntersectAustralia/dc21'
+      - 'http://intersect.org.au/content/intersect-diver'
 
   BCCVL:
     name: BCCVL - Biodiversity and Climate Change Virtual Laboratory
-    company: Intersect Australia
-    Description: "The BCCVL is a “one stop modelling shop” that simplifies the process of biodiversity-climate change modelling. Its mission is to connect the research community to Australia’s national computation infrastructure by integrating a suite of tools in a coherent online environment where researchers can access data and perform data analysis and modelling."
+    friendly_name: bccvl
+    organisation: Intersect Australia
+    type: work
+    description: "The BCCVL is a 'one stop modelling shop' that simplifies the process of biodiversity-climate change modelling. Its mission is to connect the research community to Australia's national computation infrastructure by integrating a suite of tools in a coherent online environment where researchers can access data and perform data analysis and modelling."
     technologies:
       - Pyramid (Pylons)
       - Plone
       - Python
       - SQLite
+    urls:
+      - 'http://www.bccvl.org.au/'
+      - 'https://app.bccvl.org.au/'
 
   Virtual Journey:
     name: Virtual Journey
-    company: University of Sydney
+    friendly_name: vj
+    description: "The aim of the Virtual Journey project is to assist the uni in educating industry professionals and educators in cultural competence, a skill that eventually will be part of the skill set that all USYD students graduate with."
+    organisation: University of Sydney
+    type: uni
     technologies:
       - Ruby on Rails
       - PostgreSQL
@@ -67,10 +97,14 @@ Projects:
       - FFMPEG
       - Rspec/Capybara
       - Selenium
+      - AWS
 
   LECREC:
     name: LECREC
-    company: University of Sydney
+    friendly_name: lecrec
+    description: "test"
+    organisation: University of Sydney
+    type: uni
     technologies:
       - Ruby on Rails
       - PostgreSQL
@@ -82,7 +116,10 @@ Projects:
 
   TAPAS:
     name: TAPAS
-    company: Intersect Australia
+    friendly_name: tapas
+    description: "test"
+    organisation: Intersect Australia
+    type: work
     technologies:
       - Groovy on Grails
       - PostgreSQL
@@ -92,14 +129,27 @@ Projects:
 
   Marvel Character Cards:
     name: Marvel Character Cards
+    friendly_name: mcc
+    description: "test"
+    type: personal
     technologies:
       - jQuery
       - Marvel API
+    urls:
+      - 'https://github.com/khanh2907/marvel_character_cards'
+    images:
+      - 'images/mcc1.png'
+      - 'images/mcc2.png'
 
   TreasureTrove:
     name: TreasureTrove
-    company: GovHack
+    friendly_name: treasure_trove
+    description: "test"
+    organisation: GovHack
+    type: hackathon
     technologies:
       - Ruby on Rails
       - PostgreSQL
       - Trove API
+    urls:
+      - 'https://github.com/charles-shao/treasure_trove'
