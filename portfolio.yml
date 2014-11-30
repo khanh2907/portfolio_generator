@@ -1,11 +1,43 @@
 Portfolio:
-  title: khanh
+  title: khanh.info
   github_url: https://github.com/khanh2907
   linkedin_url: https://www.linkedin.com/in/khanh2907
   twitter_url: https://twitter.com/khanhfucius
 
+  name: Khanh Nguyen
+  education: 
+    - Bachelor of Electrical Engineering (Honours)
+    - Bachelor of Science
+  experience:
+    - Software Engineering Intersect Australia
+    - Casual Tester Intersect Australia
+
 Projects:
-  LEASA:
+  0:
+    name: Intersect DIVER / HIEv
+    friendly_name: dc21
+    organisation: Intersect Australia
+    type: work
+    descriptions: 
+      - "Intersect DIVER (Data Is Vital for Empirical Research) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect 'AAAA' data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
+      - "Intersect has begun reusing software based on the DC21 (HIEv) project developed for the University of Western Sydney (UWS). DIVER (Data Is Valuable for Empirical Research), is using the DC21 (HIEv) software for Macquarie University's Faculty of Business and Economics."
+      - "I have been apart of the DC21 project for a long time starting as a tester(QA). When I became a developer, I was put on this project. I did a variety of things from front-end or back-end to automated tests."
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - Redis
+      - Resque
+      - Rspec
+      - Capybara
+      - Cucumber
+      - Selenium
+      - Ansible
+      - jQuery
+    urls:
+      - 'https://github.com/IntersectAustralia/dc21'
+      - 'http://intersect.org.au/content/intersect-diver'
+
+  1:
     name: RICS LEASA
     friendly_name: rics
     organisation: Intersect Australia
@@ -34,7 +66,167 @@ Projects:
       - 'images/leasa2.png'
       - 'images/leasa3.png'
 
-  HCSVLAB:
+  2:
+    name: Dev Dashboard
+    friendly_name: dev_dashboard
+    descriptions:
+      - "The Dev Dashboard was one of the many one-day projects implemented at the first Intersect Hack Day. There were about 3 engineers (including myself) in the team on the day. I took over the code base afterwards and improved it during my spare time."
+      - "The Dev Dashboard pulls data from Github, Jira and Jenkins to provide the development team at Intersect information on the current statuses of active projects. It also blames anyone who breaks the build with big red wriiting."
+    type: work
+    organisation: Intersect Australia
+    technologies:
+      - Node.js
+      - Angular.js
+      - jQuery
+      - Highcharts.js
+      - Python
+      - Github API
+      - JIRA API
+      - Jenkins API
+    images:
+      - 'images/devdashboard1.png'
+
+  3:
+    name: Wireless Cookie Jar Project
+    friendly_name: cookie_jar
+    descriptions:
+      - 'The aim of the "Wireless Cookie Jar" project is to develop a cookie jar that can detect how many cookies are left inside it and send the data to a web application would display the information to the user. Ideally it would provide the user with the number of cookies left in the jar using a load cell and calculations based on the average serving size information.'
+    type: uni
+    organisation: University of Sydney
+    technologies:
+      - PHP
+      - Arduino
+      - Bluetooth
+      - Android
+      - PostgreSQL
+      - jQuery
+      - Highcharts.js
+    urls:
+      - 'https://github.com/khanh2907/wireless_cookie_jar'
+    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/C6E4MFpk57c" frameborder="0" allowfullscreen></iframe>'
+  
+  4:
+    name: TreasureTrove
+    friendly_name: treasure_trove
+    descriptions: 
+      - "TreasureTrove enhances the Trove newspaper article research experience by providing topic identification, named entity recognition, relation extraction, relevant supplementary information, and maps."
+    organisation: GovHack 2013
+    type: hackathon
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - Trove API
+      - Open Calais
+      - Google Maps
+      - DBpedia
+      - jQuery
+    urls:
+      - 'https://github.com/charles-shao/treasure_trove'
+    logo: 'images/tt_logo.png'
+    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/9P27yFgmz2c" frameborder="0" allowfullscreen></iframe>'
+
+  5:
+    name: Marvel Character Cards
+    friendly_name: mcc
+    descriptions: 
+      - "Marvel Character Cards uses the Marvel API to load up all the available characters in the Marvel Comicbook Universe and allow users to see where and when characters meets each other."
+      - "This was a two-day hack done with my friend Marc (the UI/UX guy at Intersect Australia at the time). It was quick, dirty but the results were quite impressive."
+    type: personal
+    technologies:
+      - jQuery
+      - Marvel API
+    urls:
+      - 'https://github.com/khanh2907/marvel_character_cards'
+      - 'http://khanh.info/marvel_character_cards'
+    images:
+      - 'images/mcc1.png'
+      - 'images/mcc2.png'
+
+  6:
+    name: BCCVL - Biodiversity and Climate Change Virtual Laboratory
+    friendly_name: bccvl
+    organisation: Intersect Australia
+    type: work
+    descriptions: 
+      - "The BCCVL is a 'one stop modelling shop' that simplifies the process of biodiversity-climate change modelling. Its mission is to connect the research community to Australia's national computation infrastructure by integrating a suite of tools in a coherent online environment where researchers can access data and perform data analysis and modelling."
+      - "I was a developer (both frontend and backend) for this project working with a variety of technologies. The project was very modular and I was in charge of the data_mover and visualiser. I also helped out with the Javascript and styling of the frontend application. I was on this project for 12 months."
+    technologies:
+      - Pyramid (Pylons)
+      - Plone
+      - Python
+      - SQLite
+      - PostgreSQL
+      - jQuery
+    urls:
+      - 'http://www.bccvl.org.au/'
+      - 'https://app.bccvl.org.au/'
+      - 'https://github.com/bccvl'
+    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/ACj6BsLoMXo" frameborder="0" allowfullscreen></iframe>'
+
+  7:
+    name: TAPAS
+    friendly_name: tapas
+    descriptions: 
+      - "This project was for CSIRO and it involved working with an API created by the Australian Bureau of Meteorology. The goal of the application was to be able to run simulation on pest and spore interactions with the weather at certain locations."
+      - "I was put on this project as a developer to help build the initial application based off the prototype."
+    organisation: Intersect Australia
+    type: work
+    technologies:
+      - Groovy on Grails
+      - PostgreSQL
+      - PostGIS
+      - Selenium
+      - jUnit
+      - jQuery
+
+  8:
+    name: Virtual Journey
+    friendly_name: vj
+    descriptions: 
+      - "The aim of the Virtual Journey project is to assist the uni in educating industry professionals and educators in cultural competence, a skill that eventually will be part of the skill set that all USYD students graduate with."
+      - "This was a major project for the University of Sydney Techlabs."
+      - "I was the technical leader of this project, in charge of the Ruby on Rails development, integration of source code and wrote most of the automated tests."
+    organisation: University of Sydney
+    type: uni
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - PostGIS
+      - Redis
+      - Resque
+      - FFMPEG
+      - Rspec/Capybara
+      - Selenium
+      - AWS
+      - jQuery
+    urls:
+      - 'http://sydney.edu.au/nccc/'
+      - 'http://sydney.edu.au/news/84.html?newsstoryid=11777'
+    video_embed: '<iframe width="100%"height="100%"" src="//www.youtube.com/embed/c_veGmEN8rA" frameborder="0" allowfullscreen></iframe>'
+
+  9:
+    name: LECREC
+    friendly_name: lecrec
+    descriptions: 
+      - "The LECREC system is designed to include a multitude of specific functions to allow for the encouragement of learning throughout a lecture recording especially by utilising the section based video discussion thread feature. The project is expected to take 12 weeks, including project management, documentation and full implementation."
+    organisation: University of Sydney
+    type: uni
+    technologies:
+      - Ruby on Rails
+      - PostgreSQL
+      - Redis
+      - Resque
+      - FFMPEG
+      - Rspec/Capybara
+      - Selenium
+      - jQuery
+    urls:
+      - 'https://github.com/khanh2907/lecrec'
+    images:
+      - 'images/lecrec1.png'
+      - 'images/lecrec2.png'
+
+  10:
     name: Alveo
     friendly_name: hcsvlab
     organisation: Intersect Australia
@@ -61,151 +253,33 @@ Projects:
     urls:
       - 'http://alveo.edu.au/'
       - 'https://github.com/IntersectAustralia/hcsvlab'
-  
-  DC21:
-    name: Intersect DIVER / HIEv
-    friendly_name: dc21
-    organisation: Intersect Australia
-    type: work
-    descriptions: 
-      - "Intersect DIVER (Data Is Vital for Empirical Research) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect 'AAAA' data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
-      - "Intersect has begun reusing software based on the DC21 (HIEv) project developed for the University of Western Sydney (UWS). DIVER (Data Is Valuable for Empirical Research), is using the DC21 (HIEv) software for Macquarie University's Faculty of Business and Economics."
-      - "I have been apart of the DC21 project for a long time starting as a tester(QA). When I became a developer, I was put on this project. I did a variety of things from front-end or back-end to automated tests."
-    technologies:
-      - Ruby on Rails
-      - PostgreSQL
-      - Redis
-      - Resque
-      - Rspec
-      - Capybara
-      - Cucumber
-      - Selenium
-      - Ansible
-      - jQuery
-    urls:
-      - 'https://github.com/IntersectAustralia/dc21'
-      - 'http://intersect.org.au/content/intersect-diver'
 
-  BCCVL:
-    name: BCCVL - Biodiversity and Climate Change Virtual Laboratory
-    friendly_name: bccvl
-    organisation: Intersect Australia
-    type: work
-    descriptions: 
-      - "The BCCVL is a 'one stop modelling shop' that simplifies the process of biodiversity-climate change modelling. Its mission is to connect the research community to Australia's national computation infrastructure by integrating a suite of tools in a coherent online environment where researchers can access data and perform data analysis and modelling."
-      - "I was a developer (both frontend and backend) for this project working with a variety of technologies. The project was very modular and I was in charge of the data_mover and visualiser. I also helped out with the Javascript and styling of the frontend application. I was on this project for 12 months."
-    technologies:
-      - Pyramid (Pylons)
-      - Plone
-      - Python
-      - SQLite
-      - PostgreSQL
-      - jQuery
-    urls:
-      - 'http://www.bccvl.org.au/'
-      - 'https://app.bccvl.org.au/'
-      - 'https://github.com/bccvl'
-    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/ACj6BsLoMXo" frameborder="0" allowfullscreen></iframe>'
-
-  Virtual Journey:
-    name: Virtual Journey
-    friendly_name: vj
-    descriptions: 
-      - "The aim of the Virtual Journey project is to assist the uni in educating industry professionals and educators in cultural competence, a skill that eventually will be part of the skill set that all USYD students graduate with."
-      - "This was a major project for the University of Sydney Techlabs."
-      - "I was the technical leader of this project, in charge of the Ruby on Rails development, integration of source code and wrote most of the automated tests."
-    organisation: University of Sydney
-    type: uni
-    technologies:
-      - Ruby on Rails
-      - PostgreSQL
-      - PostGIS
-      - Redis
-      - Resque
-      - FFMPEG
-      - Rspec/Capybara
-      - Selenium
-      - AWS
-      - jQuery
-    urls:
-      - 'http://sydney.edu.au/nccc/'
-      - 'http://sydney.edu.au/news/84.html?newsstoryid=11777'
-    video_embed: '<iframe width="100%"height="100%"" src="//www.youtube.com/embed/c_veGmEN8rA" frameborder="0" allowfullscreen></iframe>'
-
-  LECREC:
-    name: LECREC
-    friendly_name: lecrec
-    descriptions: 
-      - "The LECREC system is designed to include a multitude of specific functions to allow for the encouragement of learning throughout a lecture recording especially by utilising the section based video discussion thread feature. The project is expected to take 12 weeks, including project management, documentation and full implementation."
-    organisation: University of Sydney
-    type: uni
-    technologies:
-      - Ruby on Rails
-      - PostgreSQL
-      - Redis
-      - Resque
-      - FFMPEG
-      - Rspec/Capybara
-      - Selenium
-      - jQuery
-
-  TAPAS:
-    name: TAPAS
-    friendly_name: tapas
-    descriptions: 
-      - "test"
-    organisation: Intersect Australia
-    type: work
-    technologies:
-      - Groovy on Grails
-      - PostgreSQL
-      - PostGIS
-      - Selenium
-      - jUnit
-      - jQuery
-
-  Marvel Character Cards:
-    name: Marvel Character Cards
-    friendly_name: mcc
-    descriptions: 
-      - "Marvel Character Cards uses the Marvel API to load up all the available characters in the Marvel Comicbook Universe and allow users to see where and when characters meets each other."
-      - "This was a two-day hack done with my friend Marc (the UI/UX guy at Intersect Australia at the time). It was quick, dirty but the results were quite impressive."
-    type: personal
-    technologies:
-      - jQuery
-      - Marvel API
-    urls:
-      - 'https://github.com/khanh2907/marvel_character_cards'
-      - 'http://khanh.info/marvel_character_cards'
-    images:
-      - 'images/mcc1.png'
-      - 'images/mcc2.png'
-
-  TreasureTrove:
-    name: TreasureTrove
-    friendly_name: treasure_trove
-    descriptions: 
-      - "TreasureTrove enhances the Trove newspaper article research experience by providing topic identification, named entity recognition, relation extraction, relevant supplementary information, and maps."
-    organisation: GovHack
+  11:
+    name: BEFUR
+    friendly_name: befur
+    descriptions:
+      - "Created a business in predictive hot desking solutions for corporate environments over an intensive startup competition. The ideas were then judged based on validation, execution and business planning by CEOs of major venture capital and incubator firms in Sydney."
+      - "This was a very fun and educational experience for me since it was my first taste of the startup world all the magical businessy stuff that came with it."
+      - "I spent most of my weekend creating the landing page and helping out with the UI/UX decisions. I also tried my hand at validating the idea and designing potential machine learning solutions for the application."
     type: hackathon
+    organisation: Startup Weekend Sydney 2014
     technologies:
-      - Ruby on Rails
-      - PostgreSQL
-      - Trove API
-      - Open Calais
-      - Google Maps
-      - DBpedia
+      - Node.js
+      - Meteor.js
       - jQuery
+      - AWS
     urls:
-      - 'https://github.com/charles-shao/treasure_trove'
-    logo: 'images/tt_logo.png'
-    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/9P27yFgmz2c" frameborder="0" allowfullscreen></iframe>'
+      - 'befur.net'
+    images:
+      - 'images/befur1.png'
+      - 'images/befur_flow.png'
 
-  Portfolio Generator:
+  12:
     name: Portfolio Generator
     friendly_name: portfolio_gen
     descriptions: 
       - "The Portfolio Generator was a quick Python script that took me about 5 hours to code whilst at a friend's birthday/LAN party. It was used to make this page!"
+      - "It basically takes in a YAML file with my project details and then make it look pretty."
     type: personal
     technologies:
       - Python
@@ -215,42 +289,6 @@ Projects:
       - YAML
     urls:
       - 'https://github.com/khanh2907/portfolio_generator'
-
-  Wireless Cookie Jar:
-    name: Wireless Cookie Jar Project
-    friendly_name: cookie_jar
-    descriptions:
-      - 'The aim of the "Wireless Cookie Jar" project is to develop a cookie jar that can detect how many cookies are left inside it and send the data to a web application would display the information to the user. Ideally it would provide the user with the number of cookies left in the jar using a load cell and calculations based on the average serving size information.'
-    type: uni
-    organisation: University of Sydney
-    technologies:
-      - PHP
-      - Arduino
-      - Bluetooth
-      - Android
-      - PostgreSQL
-      - jQuery
-      - Highcharts.js
-    urls:
-      - 'https://github.com/khanh2907/wireless_cookie_jar'
-    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/C6E4MFpk57c" frameborder="0" allowfullscreen></iframe>'
-
-  Dev Dashboard:
-    name: Dev Dashboard
-    friendly_name: dev_dashboard
-    descriptions:
-      - "The Dev Dashboard was one of the many one-day projects implemented at the first Intersect Hack Day. There were about 3 engineers (including myself) in the team on the day. I took over the code base afterwards and improved it during my spare time."
-      - "The Dev Dashboard pulls data from Github, Jira and Jenkins to provide the development team at Intersect information on the current statuses of active projects. It also blames anyone who breaks the build with big red wriiting."
-    type: work
-    organisation: Intersect Australia
-    technologies:
-      - Node.js
-      - Angular.js
-      - jQuery
-      - Highcharts.js
-      - Python
-      - Github API
-      - JIRA API
-      - Jenkins API
     images:
-      - 'images/devdashboard1.png'
+      - 'images/pg1.png'
+      - 'images/pg2.png'

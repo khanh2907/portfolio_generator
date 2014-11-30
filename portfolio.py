@@ -1,4 +1,5 @@
 import yaml
+import collections
 from classes.portfolio_page import PortfolioPage
 from classes.project import Project
 
@@ -16,7 +17,7 @@ def load_config(file_path):
 
 	projects = []
 
-	for project in dataMap['Projects']:
+	for project in sorted(dataMap['Projects'], reverse=True):
 		projects.append(Project(**dataMap['Projects'][project]))
 
 	return dataMap['Portfolio'], projects
