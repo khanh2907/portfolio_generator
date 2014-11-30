@@ -2,11 +2,11 @@ import time
 from yattag import Doc
 
 class PortfolioPage:
-	def __init__(self, projects):
+	def __init__(self, details, projects):
 		self.timestamp = time.strftime("%H:%M %d/%m/%Y")
-		self.generate_html(projects)
+		self.generate_html(details, projects)
 
-	def generate_html(self, projects):
+	def generate_html(self, details, projects):
 		doc, tag, text = Doc().tagtext()
 		doc.asis('<!DOCTYPE html>')
 		with tag('html'):
@@ -28,7 +28,14 @@ class PortfolioPage:
 					with tag('div', klass='container'):
 						with tag('div', klass='centerize'):
 							with tag('h1', klass='outside'):
-								text('Portfolio')
+								text(details['title'])
+							with tag('div', klass='social_wrapper'):
+								with tag('a', ('href', details['github_url'])):
+									doc.asis('<i class="fa fa-github-square fa-3x"></i>')
+								with tag('a', ('href', details['linkedin_url'])):
+									doc.asis('<i class="fa fa-linkedin-square fa-3x"></i>')
+								with tag('a', ('href', details['twitter_url'])):
+									doc.asis('<i class="fa fa-twitter-square fa-3x"></i>')	
 						# Projects
 						with tag('div', klass='projects col-md-12'):
 							for project in projects:
@@ -127,5 +134,6 @@ class PortfolioPage:
 			techs.append('<i class="fa fa-apple"></i>')
 		if 'jQuery' in technologies:
 			techs.append('<i class="icon-javascript"></i>')
-
+		if 'Redis' in technologies:
+			techs.append('<i class="icon-redis"></i>')
 		return techs

@@ -3,13 +3,13 @@ from classes.portfolio_page import PortfolioPage
 from classes.project import Project
 
 def main(portfolio_file='portfolio.yml'):
-	projects = load_projects(portfolio_file)
+	details, projects = load_config(portfolio_file)
 
-	portfolio = PortfolioPage(projects)
+	portfolio = PortfolioPage(details, projects)
 	print(portfolio.html)
 
 # Loads projects from the YAML file
-def load_projects(file_path):
+def load_config(file_path):
 	f = open(file_path)
 	dataMap = yaml.safe_load(f)
 	f.close()
@@ -19,7 +19,7 @@ def load_projects(file_path):
 	for project in dataMap['Projects']:
 		projects.append(Project(**dataMap['Projects'][project]))
 
-	return projects
+	return dataMap['Portfolio'], projects
 
 if __name__ == "__main__":
 	main()

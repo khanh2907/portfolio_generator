@@ -1,3 +1,9 @@
+Portfolio:
+  title: khanh
+  github_url: https://github.com/khanh2907
+  linkedin_url: https://www.linkedin.com/in/khanh2907
+  twitter_url: https://twitter.com/khanhfucius
+
 Projects:
   LEASA:
     name: RICS LEASA
@@ -17,6 +23,7 @@ Projects:
       - Capybara
       - Cucumber
       - Selenium
+      - jQuery
     urls:
       - 'http://www.rics.org/au/footer/choosing-and-managing-an-energy-efficient-space/'
       - 'https://itunes.apple.com/au/app/leasa/id647127739?mt=8'
@@ -47,6 +54,7 @@ Projects:
       - Cucumber
       - Selenium
       - Tomcat
+      - jQuery
     images:
       - 'images/alveo1.png'
       - 'images/alveo2.png'
@@ -55,12 +63,14 @@ Projects:
       - 'https://github.com/IntersectAustralia/hcsvlab'
   
   DC21:
-    name: Intersect DIVER
+    name: Intersect DIVER / HIEv
     friendly_name: dc21
     organisation: Intersect Australia
     type: work
     descriptions: 
-      - "Intersect DIVER (Data Is Vital for Empirical Research ) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect 'AAAA' data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
+      - "Intersect DIVER (Data Is Vital for Empirical Research) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect 'AAAA' data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
+      - "Intersect has begun reusing software based on the DC21 (HIEv) project developed for the University of Western Sydney (UWS). DIVER (Data Is Valuable for Empirical Research), is using the DC21 (HIEv) software for Macquarie University's Faculty of Business and Economics."
+      - "I have been apart of the DC21 project for a long time starting as a tester(QA). When I became a developer, I was put on this project. I did a variety of things from front-end or back-end to automated tests."
     technologies:
       - Ruby on Rails
       - PostgreSQL
@@ -71,6 +81,7 @@ Projects:
       - Cucumber
       - Selenium
       - Ansible
+      - jQuery
     urls:
       - 'https://github.com/IntersectAustralia/dc21'
       - 'http://intersect.org.au/content/intersect-diver'
@@ -115,6 +126,7 @@ Projects:
       - Rspec/Capybara
       - Selenium
       - AWS
+      - jQuery
     urls:
       - 'http://sydney.edu.au/nccc/'
       - 'http://sydney.edu.au/news/84.html?newsstoryid=11777'
@@ -135,6 +147,7 @@ Projects:
       - FFMPEG
       - Rspec/Capybara
       - Selenium
+      - jQuery
 
   TAPAS:
     name: TAPAS
@@ -149,6 +162,7 @@ Projects:
       - PostGIS
       - Selenium
       - jUnit
+      - jQuery
 
   Marvel Character Cards:
     name: Marvel Character Cards
@@ -181,6 +195,7 @@ Projects:
       - Open Calais
       - Google Maps
       - DBpedia
+      - jQuery
     urls:
       - 'https://github.com/charles-shao/treasure_trove'
     logo: 'images/tt_logo.png'
@@ -214,6 +229,28 @@ Projects:
       - Bluetooth
       - Android
       - PostgreSQL
+      - jQuery
+      - Highcharts.js
     urls:
       - 'https://github.com/khanh2907/wireless_cookie_jar'
     video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/C6E4MFpk57c" frameborder="0" allowfullscreen></iframe>'
+
+  Dev Dashboard:
+    name: Dev Dashboard
+    friendly_name: dev_dashboard
+    descriptions:
+      - "The Dev Dashboard was one of the many one-day projects implemented at the first Intersect Hack Day. There were about 3 engineers (including myself) in the team on the day. I took over the code base afterwards and improved it during my spare time."
+      - "The Dev Dashboard pulls data from Github, Jira and Jenkins to provide the development team at Intersect information on the current statuses of active projects. It also blames anyone who breaks the build with big red wriiting."
+    type: work
+    organisation: Intersect Australia
+    technologies:
+      - Node.js
+      - Angular.js
+      - jQuery
+      - Highcharts.js
+      - Python
+      - Github API
+      - JIRA API
+      - Jenkins API
+    images:
+      - 'images/devdashboard1.png'
