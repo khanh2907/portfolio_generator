@@ -19,7 +19,8 @@ h2 i {
 }
 
 .video_embed {
-	max-width: 40%;
+	margin: 5px;
+	height: 400px;
 }
 
 	body {

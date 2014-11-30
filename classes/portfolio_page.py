@@ -59,7 +59,7 @@ class PortfolioPage:
 
 										# Images
 										if hasattr(project, 'images'):
-											with tag('div', klass='images col-md-12'):
+											with tag('div', klass='images col-md-12 centerize'):
 												for image in project.images:
 													doc.asis('<img src="%s" class="image"></img>' % image)
 
@@ -69,8 +69,9 @@ class PortfolioPage:
 												doc.asis(project.video_embed)
 
 										# Description
-										with tag('p', klass='description'):
-											text(project.description)
+										for description in project.descriptions:
+											with tag('p', klass='description'):
+												text(description)
 										
 									# List of technologies
 									with tag('div', klass='tech-list col-md-6'):

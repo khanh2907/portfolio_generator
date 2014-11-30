@@ -4,7 +4,8 @@ Projects:
     friendly_name: rics
     organisation: Intersect Australia
     type: work
-    description: "The Leasa App has a number of tools which help office tenants to make decisions about their existing office space and the spaces they may wish to lease."
+    descriptions: 
+      - "The Leasa App has a number of tools which help office tenants to make decisions about their existing office space and the spaces they may wish to lease."
     technologies: 
       - Ruby on Rails
       - PostgreSQL
@@ -31,7 +32,10 @@ Projects:
     friendly_name: hcsvlab
     organisation: Intersect Australia
     type: work
-    description: "Alveo provides on-line infrastructure for accessing human communication data sets (speech, texts, music, video, etc.) and for using specialised tools for searching, analysing and annotating that data."
+    descriptions: 
+      - "Alveo provides on-line infrastructure for accessing human communication data sets (speech, texts, music, video, etc.) and for using specialised tools for searching, analysing and annotating that data."
+      - "I was added to this project in it's second phase where I spent most of my time removing Fedora, migrating the application to use ActiveRecord. This ulitmately lead to lots of refactoring and optimisation of existing functionality."
+      - "I also wrote an Ansible Playbook which would be used later in Intersect's in house automated provisioning and deployment application."
     technologies: 
       - Ruby on Rails
       - PostgreSQL
@@ -43,6 +47,9 @@ Projects:
       - Cucumber
       - Selenium
       - Tomcat
+    images:
+      - 'images/alveo1.png'
+      - 'images/alveo2.png'
     urls:
       - 'http://alveo.edu.au/'
       - 'https://github.com/IntersectAustralia/hcsvlab'
@@ -52,7 +59,8 @@ Projects:
     friendly_name: dc21
     organisation: Intersect Australia
     type: work
-    description: "Intersect DIVER (Data Is Vital for Empirical Research ) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect 'AAAA' data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
+    descriptions: 
+      - "Intersect DIVER (Data Is Vital for Empirical Research ) is a general purpose open source research data capture and sharing application. When deployed as part of an Intersect 'AAAA' data management implementation project, Intersect DIVER provides a full lifecycle research data management solution out-of-the-box."
     technologies:
       - Ruby on Rails
       - PostgreSQL
@@ -72,21 +80,29 @@ Projects:
     friendly_name: bccvl
     organisation: Intersect Australia
     type: work
-    description: "The BCCVL is a 'one stop modelling shop' that simplifies the process of biodiversity-climate change modelling. Its mission is to connect the research community to Australia's national computation infrastructure by integrating a suite of tools in a coherent online environment where researchers can access data and perform data analysis and modelling."
+    descriptions: 
+      - "The BCCVL is a 'one stop modelling shop' that simplifies the process of biodiversity-climate change modelling. Its mission is to connect the research community to Australia's national computation infrastructure by integrating a suite of tools in a coherent online environment where researchers can access data and perform data analysis and modelling."
+      - "I was a developer (both frontend and backend) for this project working with a variety of technologies. The project was very modular and I was in charge of the data_mover and visualiser. I also helped out with the Javascript and styling of the frontend application. I was on this project for 12 months."
     technologies:
       - Pyramid (Pylons)
       - Plone
       - Python
       - SQLite
+      - PostgreSQL
+      - jQuery
     urls:
       - 'http://www.bccvl.org.au/'
       - 'https://app.bccvl.org.au/'
-    video_embed: '<iframe width="560" height="315" src="//www.youtube.com/embed/ACj6BsLoMXo" frameborder="0" allowfullscreen></iframe>'
+      - 'https://github.com/bccvl'
+    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/ACj6BsLoMXo" frameborder="0" allowfullscreen></iframe>'
 
   Virtual Journey:
     name: Virtual Journey
     friendly_name: vj
-    description: "The aim of the Virtual Journey project is to assist the uni in educating industry professionals and educators in cultural competence, a skill that eventually will be part of the skill set that all USYD students graduate with."
+    descriptions: 
+      - "The aim of the Virtual Journey project is to assist the uni in educating industry professionals and educators in cultural competence, a skill that eventually will be part of the skill set that all USYD students graduate with."
+      - "This was a major project for the University of Sydney Techlabs."
+      - "I was the technical leader of this project, in charge of the Ruby on Rails development, integration of source code and wrote most of the automated tests."
     organisation: University of Sydney
     type: uni
     technologies:
@@ -99,11 +115,16 @@ Projects:
       - Rspec/Capybara
       - Selenium
       - AWS
+    urls:
+      - 'http://sydney.edu.au/nccc/'
+      - 'http://sydney.edu.au/news/84.html?newsstoryid=11777'
+    video_embed: '<iframe width="100%"height="100%"" src="//www.youtube.com/embed/c_veGmEN8rA" frameborder="0" allowfullscreen></iframe>'
 
   LECREC:
     name: LECREC
     friendly_name: lecrec
-    description: "test"
+    descriptions: 
+      - "The LECREC system is designed to include a multitude of specific functions to allow for the encouragement of learning throughout a lecture recording especially by utilising the section based video discussion thread feature. The project is expected to take 12 weeks, including project management, documentation and full implementation."
     organisation: University of Sydney
     type: uni
     technologies:
@@ -118,7 +139,8 @@ Projects:
   TAPAS:
     name: TAPAS
     friendly_name: tapas
-    description: "test"
+    descriptions: 
+      - "test"
     organisation: Intersect Australia
     type: work
     technologies:
@@ -131,7 +153,9 @@ Projects:
   Marvel Character Cards:
     name: Marvel Character Cards
     friendly_name: mcc
-    description: "test"
+    descriptions: 
+      - "Marvel Character Cards uses the Marvel API to load up all the available characters in the Marvel Comicbook Universe and allow users to see where and when characters meets each other."
+      - "This was a two-day hack done with my friend Marc (the UI/UX guy at Intersect Australia at the time). It was quick, dirty but the results were quite impressive."
     type: personal
     technologies:
       - jQuery
@@ -146,7 +170,8 @@ Projects:
   TreasureTrove:
     name: TreasureTrove
     friendly_name: treasure_trove
-    description: "TreasureTrove enhances the Trove newspaper article research experience by providing topic identification, named entity recognition, relation extraction, relevant supplementary information, and maps."
+    descriptions: 
+      - "TreasureTrove enhances the Trove newspaper article research experience by providing topic identification, named entity recognition, relation extraction, relevant supplementary information, and maps."
     organisation: GovHack
     type: hackathon
     technologies:
@@ -159,4 +184,36 @@ Projects:
     urls:
       - 'https://github.com/charles-shao/treasure_trove'
     logo: 'images/tt_logo.png'
-    video_embed: '<iframe width="560" height="315" src="//www.youtube.com/embed/9P27yFgmz2c" frameborder="0" allowfullscreen></iframe>'
+    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/9P27yFgmz2c" frameborder="0" allowfullscreen></iframe>'
+
+  Portfolio Generator:
+    name: Portfolio Generator
+    friendly_name: portfolio_gen
+    descriptions: 
+      - "The Portfolio Generator was a quick Python script that took me about 5 hours to code whilst at a friend's birthday/LAN party. It was used to make this page!"
+    type: personal
+    technologies:
+      - Python
+      - Bootstrap 3
+      - jQuery
+      - Font Awesome
+      - YAML
+    urls:
+      - 'https://github.com/khanh2907/portfolio_generator'
+
+  Wireless Cookie Jar:
+    name: Wireless Cookie Jar Project
+    friendly_name: cookie_jar
+    descriptions:
+      - 'The aim of the "Wireless Cookie Jar" project is to develop a cookie jar that can detect how many cookies are left inside it and send the data to a web application would display the information to the user. Ideally it would provide the user with the number of cookies left in the jar using a load cell and calculations based on the average serving size information.'
+    type: uni
+    organisation: University of Sydney
+    technologies:
+      - PHP
+      - Arduino
+      - Bluetooth
+      - Android
+      - PostgreSQL
+    urls:
+      - 'https://github.com/khanh2907/wireless_cookie_jar'
+    video_embed: '<iframe width="100%" height="100%" src="//www.youtube.com/embed/C6E4MFpk57c" frameborder="0" allowfullscreen></iframe>'
